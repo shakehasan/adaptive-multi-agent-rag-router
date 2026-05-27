@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "adaptive-multi-agent-rag-router"
 version = "0.1.0"
-description = "Local-first multi-agent orchestration with dynamic routing and retrieval."
+description = "Production-grade local NLP agent platform for multi-agent RAG and intelligent routing."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }

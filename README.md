@@ -1,6 +1,6 @@
 # Adaptive Multi-Agent RAG Router
 
-**A local-first multi-agent orchestration system with dynamic model routing, retrieval, verification, and traceable reasoning.**
+**Production-grade local NLP agent platform for multi-agent RAG, intelligent routing, grounded citations, evaluations, and auditable traces.**
 
 `local-first` `free-to-run` `no-cloud-required` `multi-agent` `RAG` `typed` `tested` `no-telemetry`
 
