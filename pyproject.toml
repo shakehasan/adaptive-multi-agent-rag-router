@@ -9,7 +9,7 @@ description = "Local-first multi-agent orchestration with dynamic routing and re
 readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
-authors = [{ name = "Project contributors" }]
+authors = [{ name = "Shake Hasan" }]
 dependencies = []
 
 [project.optional-dependencies]
