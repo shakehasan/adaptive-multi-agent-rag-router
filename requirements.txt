@@ -1,2 +1,12 @@
-# Runtime uses the Python standard library.
-# Tests also run with the standard library test runner.
+# No external runtime libraries are required.
+#
+# The project intentionally uses the Python standard library for:
+# - CLI: argparse
+# - local API: http.server
+# - persistence and reports: json, pathlib
+# - RAG / NLP utilities: re, hashlib, math, collections
+# - local endpoint adapters: urllib
+# - tests: unittest
+#
+# Install with:
+#   python -m pip install -e .

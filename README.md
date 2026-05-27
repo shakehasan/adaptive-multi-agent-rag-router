@@ -58,6 +58,23 @@ python -m amarr.cli.main evaluate
 
 Mock mode is the default. It needs no downloads, no internet, and no account setup.
 
+## Libraries And Runtime
+
+This project is intentionally standard-library-first. It does not require external packages for runtime, tests, the API server, the CLI, the demo, retrieval, routing, evaluation, or tracing.
+
+| Area | Libraries / Modules Used |
+| --- | --- |
+| CLI | `argparse`, `pathlib` |
+| Local API and demo server | `http.server`, `mimetypes`, `urllib`, `json` |
+| Typed architecture | `dataclasses`, `typing`, `enum`, `abc`, `collections` |
+| Local persistence | `json`, `pathlib`, plain local files |
+| RAG and NLP utilities | `re`, `hashlib`, `math`, `collections.Counter` |
+| Model adapters | `urllib.request`, `urllib.parse`, deterministic mock adapters |
+| Evaluation and tests | `unittest`, `tempfile`, `contextlib`, `io` |
+| Observability | local JSON traces, HTML rendering with `html` |
+
+External libraries: **none required**. Users can optionally connect neutral local model endpoints through the alias configuration.
+
 ## CLI Usage
 
 ```bash
