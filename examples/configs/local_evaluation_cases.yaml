@@ -1,0 +1,1601 @@
+cases:
+  case_001:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 001
+  case_002:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 002
+  case_003:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 003
+  case_004:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 004
+  case_005:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 005
+  case_006:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 006
+  case_007:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 007
+  case_008:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 008
+  case_009:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 009
+  case_010:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 010
+  case_011:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 011
+  case_012:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 012
+  case_013:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 013
+  case_014:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 014
+  case_015:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 015
+  case_016:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 016
+  case_017:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 017
+  case_018:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 018
+  case_019:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 019
+  case_020:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 020
+  case_021:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 021
+  case_022:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 022
+  case_023:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 023
+  case_024:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 024
+  case_025:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 025
+  case_026:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 026
+  case_027:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 027
+  case_028:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 028
+  case_029:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 029
+  case_030:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 030
+  case_031:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 031
+  case_032:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 032
+  case_033:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 033
+  case_034:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 034
+  case_035:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 035
+  case_036:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 036
+  case_037:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 037
+  case_038:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 038
+  case_039:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 039
+  case_040:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 040
+  case_041:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 041
+  case_042:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 042
+  case_043:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 043
+  case_044:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 044
+  case_045:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 045
+  case_046:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 046
+  case_047:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 047
+  case_048:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 048
+  case_049:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 049
+  case_050:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 050
+  case_051:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 051
+  case_052:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 052
+  case_053:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 053
+  case_054:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 054
+  case_055:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 055
+  case_056:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 056
+  case_057:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 057
+  case_058:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 058
+  case_059:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 059
+  case_060:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 060
+  case_061:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 061
+  case_062:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 062
+  case_063:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 063
+  case_064:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 064
+  case_065:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 065
+  case_066:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 066
+  case_067:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 067
+  case_068:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 068
+  case_069:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 069
+  case_070:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 070
+  case_071:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 071
+  case_072:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 072
+  case_073:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 073
+  case_074:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 074
+  case_075:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 075
+  case_076:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 076
+  case_077:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 077
+  case_078:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 078
+  case_079:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 079
+  case_080:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 080
+  case_081:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 081
+  case_082:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 082
+  case_083:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 083
+  case_084:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 084
+  case_085:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 085
+  case_086:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 086
+  case_087:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 087
+  case_088:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 088
+  case_089:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 089
+  case_090:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 090
+  case_091:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 091
+  case_092:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 092
+  case_093:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 093
+  case_094:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 094
+  case_095:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 095
+  case_096:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 096
+  case_097:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 097
+  case_098:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 098
+  case_099:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 099
+  case_100:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 100
+  case_101:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 101
+  case_102:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 102
+  case_103:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 103
+  case_104:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 104
+  case_105:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 105
+  case_106:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 106
+  case_107:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 107
+  case_108:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 108
+  case_109:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 109
+  case_110:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 110
+  case_111:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 111
+  case_112:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 112
+  case_113:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 113
+  case_114:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 114
+  case_115:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 115
+  case_116:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 116
+  case_117:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 117
+  case_118:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 118
+  case_119:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 119
+  case_120:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 120
+  case_121:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 121
+  case_122:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 122
+  case_123:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 123
+  case_124:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 124
+  case_125:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 125
+  case_126:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 126
+  case_127:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 127
+  case_128:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 128
+  case_129:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 129
+  case_130:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 130
+  case_131:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 131
+  case_132:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 132
+  case_133:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 133
+  case_134:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 134
+  case_135:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 135
+  case_136:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 136
+  case_137:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 137
+  case_138:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 138
+  case_139:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 139
+  case_140:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 140
+  case_141:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 141
+  case_142:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 142
+  case_143:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 143
+  case_144:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 144
+  case_145:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 145
+  case_146:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 146
+  case_147:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 147
+  case_148:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 148
+  case_149:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 149
+  case_150:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 150
+  case_151:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 151
+  case_152:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 152
+  case_153:
+    query: Explain how the local system should handle routing when policy is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - alias
+      - policy
+      - score
+      - fallback
+    evidence_focus: policy
+    verifier_check: cite evidence and confidence for case 153
+  case_154:
+    query: Explain how the local system should handle retrieval when fusion is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - keyword
+      - vector
+      - fusion
+      - citation
+    evidence_focus: fusion
+    verifier_check: cite evidence and confidence for case 154
+  case_155:
+    query: Explain how the local system should handle verification when confidence is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - grounding
+      - claim
+      - evidence
+      - confidence
+    evidence_focus: confidence
+    verifier_check: cite evidence and confidence for case 155
+  case_156:
+    query: Explain how the local system should handle coding when module is important.
+    expected_route: coding_large
+    expected_terms:
+      - module
+      - test
+      - boundary
+      - debug
+    evidence_focus: module
+    verifier_check: cite evidence and confidence for case 156
+  case_157:
+    query: Explain how the local system should handle summary when summary is important.
+    expected_route: fast_small
+    expected_terms:
+      - short
+      - summary
+      - classification
+      - utility
+    evidence_focus: summary
+    verifier_check: cite evidence and confidence for case 157
+  case_158:
+    query: Explain how the local system should handle memory when pruning is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - conversation
+      - task
+      - pruning
+      - summary
+    evidence_focus: pruning
+    verifier_check: cite evidence and confidence for case 158
+  case_159:
+    query: Explain how the local system should handle observability when timeline is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - trace
+      - span
+      - redaction
+      - timeline
+    evidence_focus: timeline
+    verifier_check: cite evidence and confidence for case 159
+  case_160:
+    query: Explain how the local system should handle recovery when retry is important.
+    expected_route: reasoning_large
+    expected_terms:
+      - retry
+      - circuit
+      - fallback
+      - degrade
+    evidence_focus: retry
+    verifier_check: cite evidence and confidence for case 160

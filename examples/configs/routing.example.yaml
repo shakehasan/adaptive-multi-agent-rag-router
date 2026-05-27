@@ -1,0 +1,21 @@
+routing:
+  default_policy: balanced
+  fallback_model: fast_small
+  timeout_seconds: 30
+  max_retries: 2
+  circuit_breaker:
+    failure_threshold: 3
+    recovery_seconds: 20
+  policies:
+    balanced:
+      quality_weight: 0.55
+      speed_weight: 0.30
+      stability_weight: 0.15
+    quality:
+      quality_weight: 0.75
+      speed_weight: 0.10
+      stability_weight: 0.15
+    economy:
+      quality_weight: 0.35
+      speed_weight: 0.45
+      stability_weight: 0.20

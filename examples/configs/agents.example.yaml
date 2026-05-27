@@ -1,0 +1,24 @@
+agents:
+  supervisor:
+    retries: 1
+    required_stages:
+      - plan
+      - retrieve
+      - research
+      - critique
+      - verify
+      - synthesize
+  planner:
+    model_alias: reasoning_large
+  researcher:
+    model_alias: reasoning_large
+  retriever:
+    model_alias: retrieval_embedder
+  coder:
+    model_alias: coding_large
+  critic:
+    model_alias: reasoning_large
+  verifier:
+    model_alias: reasoning_large
+  synthesizer:
+    model_alias: reasoning_large

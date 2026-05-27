@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adaptive Multi-Agent RAG Router</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="chat-panel">
+      <header><h1>Adaptive Multi-Agent RAG Router</h1><span id="status">local</span></header>
+      <div id="messages" class="messages"></div>
+      <form id="ask-form" class="composer">
+        <textarea id="query" rows="3">What design principles does this knowledge base recommend for building reliable local AI systems?</textarea>
+        <button type="submit">Ask</button>
+      </form>
+    </section>
+    <aside class="inspector">
+      <nav class="tabs">
+        <button data-tab="evidence" class="active">Evidence</button>
+        <button data-tab="route">Routing</button>
+        <button data-tab="trace">Trace</button>
+        <button data-tab="confidence">Confidence</button>
+      </nav>
+      <section id="evidence" class="tab active"></section>
+      <section id="route" class="tab"></section>
+      <section id="trace" class="tab"></section>
+      <section id="confidence" class="tab"></section>
+    </aside>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

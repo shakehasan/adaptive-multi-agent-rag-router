@@ -1,0 +1,51 @@
+environment: local
+privacy:
+  telemetry: false
+  external_network: false
+
+models:
+  reasoning_large:
+    type: local_chat
+    endpoint: ${AMARR_MODEL_REASONING_LARGE_URL}
+    capabilities:
+      - planning
+      - synthesis
+      - verification
+  coding_large:
+    type: local_chat
+    endpoint: ${AMARR_MODEL_CODING_LARGE_URL}
+    capabilities:
+      - code
+      - debugging
+      - architecture
+  fast_small:
+    type: local_chat
+    endpoint: ${AMARR_MODEL_FAST_SMALL_URL}
+    capabilities:
+      - classification
+      - routing
+      - summarization
+  retrieval_embedder:
+    type: local_embedding
+    endpoint: ${AMARR_MODEL_EMBEDDING_URL}
+  rerank_local:
+    type: local_rerank
+    endpoint: ${AMARR_MODEL_RERANK_URL}
+
+routing:
+  default_policy: balanced
+  fallback_model: fast_small
+  timeout_seconds: 30
+  max_retries: 2
+
+rag:
+  chunk_size: 800
+  chunk_overlap: 120
+  top_k: 8
+  rerank_top_k: 5
+  hybrid_alpha: 0.65
+
+observability:
+  trace_enabled: true
+  trace_dir: .amarr/traces
+  redact_prompts: false

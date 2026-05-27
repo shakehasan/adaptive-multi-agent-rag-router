@@ -1,0 +1,36 @@
+scenarios:
+  reliable_local_systems:
+    query: What principles guide reliable local AI systems?
+    expected_terms:
+      - local
+      - deterministic
+      - routing
+      - evidence
+    expected_route: reasoning_large
+  fallback_recovery:
+    query: How should fallback work when an alias is unhealthy?
+    expected_terms:
+      - fallback
+      - circuit
+      - retry
+      - trace
+    expected_route: reasoning_large
+  code_review:
+    query: Review the retrieval module for test gaps.
+    expected_terms:
+      - retrieval
+      - test
+      - module
+    expected_route: coding_large
+  citation_grounding:
+    query: Verify that the answer is grounded in citations.
+    expected_terms:
+      - citation
+      - evidence
+      - verification
+    expected_route: reasoning_large
+  short_summary:
+    query: Summarize this note.
+    expected_terms:
+      - summary
+    expected_route: fast_small

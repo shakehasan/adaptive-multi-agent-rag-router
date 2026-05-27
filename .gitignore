@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local runtime state
+.amarr/
+.env
+*.log
+*.sqlite
+*.db
+
+# Build artifacts
+dist/
+build/
+site/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local virtual environments
+.venv/
+venv/
+env/
